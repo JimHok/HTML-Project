@@ -1,0 +1,88 @@
+.center {
+  text-align: center;
+}
+
+.name {
+  font-size: 3vw;
+}
+
+.addr {
+  font-weight: bold;
+  font-size: 1.5vw;
+}
+
+hr {
+  margin: 3vw 5vw 2vw;
+  height: 0.2vw;
+  border-width: 0;
+  background-color: black;
+  width: 90%;
+}
+
+.nav {
+  width: 16%;
+  float: left;
+  margin: 0vw 5vw;
+  font-weight: bold;
+  font-size: 1.5vw;
+  letter-spacing: 0.2vw;
+}
+
+.navTitle {
+  margin: 1.5vw 5vw 1.5vw;
+  font-weight: bold;
+  font-size: 1.5vw;
+  letter-spacing: 0.2vw;
+}
+
+.navText {
+  width: 69%;
+  float: left;
+  font-size: 1.65vw;
+  margin-bottom: 2vw;
+  text-align: justify;
+}
+
+.date {
+  font-weight: normal;
+  font-size: 1.6vw;
+  letter-spacing: 0vw;
+}
+
+.navTextMid {
+  width: 75%;
+  float: left;
+  margin-bottom: 1vw;
+  font-size: 1.8vw;
+  font-weight: bold;
+}
+
+.navTextRight {
+  width: 10%;
+  float: right;
+  font-weight: normal;
+}
+
+.navSubMid {
+  font-weight: normal;
+  margin-bottom: 1vw;
+  font-size: 1.6vw;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 5vw;
+  row-gap: 1vw;
+}
+
+.grid-lt {
+  font-weight: bold;
+  text-align: left;
+  font-size: 1.6vw;
+}
+
+.grid-rt {
+  text-align: right;
+  font-size: 1.5vw;
+}
