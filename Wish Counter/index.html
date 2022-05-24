@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="script.js"></script>
+    <title>Wish Counter</title>
+  </head>
+  <body>
+    <div class="page-box">
+      <div class="banner-box center">
+        <img src="./Image/banner.webp" style="width: 100%; max-height: 100%" />
+      </div>
+      <div class="button-box center">
+        <div class="button" onclick="Wish(1)">Wish</div>
+        <div class="button" onclick="Wish(10)">Wish x10</div>
+      </div>
+    </div>
+    <div id="pull">
+      <video id="pullVid" src="" autoplay muted></video>
+      <div id="skip">Skip</div>
+    </div>
+    <div id="close" onclick="closeChar()"><img src="./Image/close.png" /></div>
+    <div id="charBack">
+      <img class="imFit" id="pullBack" src="" />
+    </div>
+    <div id="char">
+      <img class="fitChar animation" id="pullChar" src="" />
+    </div>
+    <script>
+      document
+        .getElementById("pullVid")
+        .addEventListener("ended", vidEnd, false);
+      document.getElementById("skip").addEventListener("click", skip);
+      document.getElementById("pullBack").addEventListener("click", vidEnd);
+      document
+        .getElementById("pullChar")
+        .addEventListener("click", vidEnd, false);
+    </script>
+  </body>
+</html>
